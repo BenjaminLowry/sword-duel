@@ -12,6 +12,9 @@
 		5F263EB01E431C49004E7734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F263EAE1E431C49004E7734 /* Main.storyboard */; };
 		5F263EB21E431C49004E7734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F263EB11E431C49004E7734 /* Assets.xcassets */; };
 		5F263EB51E431C49004E7734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F263EB31E431C49004E7734 /* LaunchScreen.storyboard */; };
+		5F38B78A1E4448250054D910 /* Designbolts-Free-Valentine-Heart-Heart.ico in Resources */ = {isa = PBXBuildFile; fileRef = 5F38B7891E4448250054D910 /* Designbolts-Free-Valentine-Heart-Heart.ico */; };
+		5F38B78C1E4449040054D910 /* 2000px-Sword_01.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F38B78B1E4449040054D910 /* 2000px-Sword_01.svg.png */; };
+		5F38B78E1E4449500054D910 /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38B78D1E4449500054D910 /* BattleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5F263EB11E431C49004E7734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F263EB41E431C49004E7734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F263EB61E431C49004E7734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F38B7891E4448250054D910 /* Designbolts-Free-Valentine-Heart-Heart.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Designbolts-Free-Valentine-Heart-Heart.ico"; sourceTree = "<group>"; };
+		5F38B78B1E4449040054D910 /* 2000px-Sword_01.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2000px-Sword_01.svg.png"; sourceTree = "<group>"; };
+		5F38B78D1E4449500054D910 /* BattleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,8 @@
 			children = (
 				5F263EA91E431C49004E7734 /* Sword Duel */,
 				5F263EA81E431C49004E7734 /* Products */,
+				5F38B7891E4448250054D910 /* Designbolts-Free-Valentine-Heart-Heart.ico */,
+				5F38B78B1E4449040054D910 /* 2000px-Sword_01.svg.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +65,7 @@
 				5F263EAA1E431C49004E7734 /* AppDelegate.swift */,
 				5F263EAC1E431C49004E7734 /* ViewController.swift */,
 				5F263EAE1E431C49004E7734 /* Main.storyboard */,
+				5F38B78D1E4449500054D910 /* BattleViewController.swift */,
 				5F263EB11E431C49004E7734 /* Assets.xcassets */,
 				5F263EB31E431C49004E7734 /* LaunchScreen.storyboard */,
 				5F263EB61E431C49004E7734 /* Info.plist */,
@@ -124,7 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F263EB51E431C49004E7734 /* LaunchScreen.storyboard in Resources */,
+				5F38B78A1E4448250054D910 /* Designbolts-Free-Valentine-Heart-Heart.ico in Resources */,
 				5F263EB21E431C49004E7734 /* Assets.xcassets in Resources */,
+				5F38B78C1E4449040054D910 /* 2000px-Sword_01.svg.png in Resources */,
 				5F263EB01E431C49004E7734 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F38B78E1E4449500054D910 /* BattleViewController.swift in Sources */,
 				5F263EAD1E431C49004E7734 /* ViewController.swift in Sources */,
 				5F263EAB1E431C49004E7734 /* AppDelegate.swift in Sources */,
 			);
@@ -297,6 +309,7 @@
 				5F263EBB1E431C49004E7734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
